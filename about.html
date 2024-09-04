@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - School Club</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <a class="navbar-brand" href="#">School Club</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="why-join.html">Why Join?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="how-to-join.html">How to Join</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section class="about-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Our Club</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="https://via.placeholder.com/500x300" alt="Club Image" class="img-fluid rounded mb-4">
+                </div>
+                <div class="col-md-6">
+                    <p class="lead mb-4">Our school club brings together passionate students to work on exciting projects and activities that positively impact our community. We strive to foster a sense of belonging and create opportunities for personal and professional growth.</p>
+                    
+                    <h4>What We Do:</h4>
+                    <ul class="list-unstyled mb-4">
+                        <li><i class="fa fa-check-circle"></i> Community Outreach Programs</li>
+                        <li><i class="fa fa-check-circle"></i> Educational Workshops and Seminars</li>
+                        <li><i class="fa fa-check-circle"></i> Fundraising and Charity Events</li>
+                        <li><i class="fa fa-check-circle"></i> Social and Networking Events</li>
+                    </ul>
+
+                    <h4>Our Values:</h4>
+                    <ul class="list-unstyled mb-4">
+                        <li><i class="fa fa-star"></i> Inclusivity and Respect</li>
+                        <li><i class="fa fa-star"></i> Integrity and Accountability</li>
+                        <li><i class="fa fa-star"></i> Excellence and Innovation</li>
+                        <li><i class="fa fa-star"></i> Teamwork and Collaboration</li>
+                    </ul>
+
+                    <p class="lead mb-4">We believe in the power of collective effort and are dedicated to making a difference. Whether you're looking to give back to the community, develop new skills, or simply connect with like-minded individuals, our club offers something for everyone.</p>
+                    <a href="index.html" class="btn btn-primary">Back to Home</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section py-4 text-center text-white">
+        <p>© <span id="currentYear"></span> School Club. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript for Dynamic Year -->
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
